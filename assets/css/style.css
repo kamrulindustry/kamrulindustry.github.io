@@ -1,0 +1,566 @@
+
+h1,h2,h3,h4,h5,h6{
+	color: #000000;
+	font-weight: 700;
+
+}
+body{
+	color: #333333;
+	line-height: 1.9;
+}
+a:hover{text-decoration: none;}
+/*---------- HEADER TOP AREA CSS START ----------*/
+.header-top-area{
+  background: #0b0b0b;
+  color: #fff;
+  padding: 15px 0;
+  line-height: 40px;
+}
+.header-top-area a {
+  color: #fff;;
+  display: inline-block;
+}
+.header-top-text i {
+  color: #fc721e;
+}
+.header-right {
+	display: inline-block;
+	margin-left: 10px;
+	float: left;
+}
+.header-left-text i, .header-right i {
+	color: #fc721e;
+	margin-right: 5px;
+}
+.social-area {
+	display: inline-block;
+	margin-left: 11px;
+}
+.social-area a {
+  display: inline-block;
+}
+.social-area a i {
+  height: 40px;
+  width: 40px;
+  border: 1px solid #fff;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  transition: .3s;
+  margin-right: 3px;
+}
+.social-area a i:hover {
+  background: #fc721e;
+  border-color: #fc721e;
+}
+.header-logo h1 {
+  font-size: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: 1px solid;
+  text-align: center;
+  padding: 10px 24px;
+  margin: 0;
+}
+.main-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: right;
+}
+.main-menu li {
+	display: inline-block;
+	float: left;
+	margin-top: 3px;
+}
+.main-menu li a {
+	display: block;
+	color: #0b0b0b;
+	text-transform: uppercase;
+	font-weight: 600;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .3s;
+	border: 2px solid #fff;
+}
+.main-menu li a.active, .main-menu li a:hover {
+  border: 2px solid #fc721e;
+}
+.header-logo {
+  display: inline-block;
+}
+.header-bottom-area {
+  margin: 20px 0;
+}
+/*---------- HEADER TOP AREA CSS END ----------*/
+/*---------- SLIDER AREA CSS START ----------*/
+.single-slider-area{background-image: url(../img/hero-bg.jpg);}
+.row .single-slider-area {
+  height: 600px;
+}
+.single-slider-area .row {
+  height: 700px;
+}
+.single-slider-area {
+  background-size: cover;
+  background-position: center;
+  background-color: #ddd;
+  position: relative;
+  z-index: 1;
+}
+.single-slider-area:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background: #050505;
+  z-index: -1;
+  opacity: .8;
+}
+.slide-text {
+  color: #fff;
+  line-height: 1.9;
+}
+.slide-text h1 {
+  font-size: 60px;
+  color: #fff;
+  line-height: 60px;
+  margin-bottom: 30px;
+}
+.boxed-btn {
+	display: inline-block;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 600;
+	padding: 13px 40px;
+	border: 1px solid;
+	text-decoration: none;
+	transition: .3s;
+	border-radius: 5px;
+	margin-top: 30px;
+}
+.boxed-btn:last-child {
+  margin-left: 10px;
+}
+.boxed-btn.active,.boxed-btn:hover {
+  background: #fc721e;
+  border-color: #fc721e;
+  color: #fff;
+  text-decoration: none;
+}
+.homepage-slider-wrap .owl-dots div {
+  height: 25px;
+  width: 1px;
+  background: #fff;
+  display: inline-block;
+  margin-right: 8px;
+  transition: .3s;
+}
+.homepage-slider-wrap .owl-dots {
+  position: relative;
+  left: 0;
+  bottom: 100px;
+  width: 1100px;
+  margin: 0 auto;
+}
+.homepage-slider-wrap .owl-dots div.active{
+  height: 30px;
+  background: #FC721E;
+}
+/*---------- SLIDER AREA CSS END ----------*/
+/*---------- SERVICE AREA CSS START ----------*/
+.section-title {
+  max-width: 430px;
+  margin: auto;
+  margin-bottom: 80px;
+}
+.section-title h2 {
+  text-transform: uppercase;
+}
+.service-area {
+	padding-top: 100px;
+}
+.service-bg-1{background-image: url(../img/service-1.jpg);}
+.service-bg-2{background-image: url(../img/service-2.jpg);}
+.service-bg-3{background-image: url(../img/service-3.jpg);}
+.service-bg {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-color: #ddd;
+}
+.single-service-item h4 {
+	font-size: 20px;
+	font-weight: 600;
+	background: #fc721e;
+	padding: 13px 0;
+	color: #fff;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: -25px;
+	margin-bottom: 25px;
+}
+.single-service-item {
+  text-align: center;
+  cursor: pointer;
+}
+.service-text {
+  border: 1px solid #d1cfcf;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 35px;
+  transition: .3s;
+}
+.read-more {
+  display: inline-block;
+  color: #0c0c0c;
+  font-weight: 700;
+  transition: .3s;
+  position: relative;
+}
+.read-more i {
+	position: absolute;
+	top: 32%;
+	right: -26%;
+}
+.read-more:hover {
+  color: #fc721e;
+}
+.single-service-item:hover .service-text {
+	box-shadow: 1px 1px 5px 1px #d9d9d9;
+}
+
+/*---------- SERVICE AREA CSS END ----------*/
+/*---------- ABOUT AREA CSS START ----------*/
+.about-background{background-image: url(../img/about-mans.jpg);}
+.about-us-area {
+	padding-top: 100px;
+	position: relative;
+	padding-bottom: 100px;
+}
+.grey-bg {
+	background: #f4f4f4;
+}
+.about-background {
+  position: absolute;
+  left: 9%;
+  top: 34%;
+  width: 33%;
+  height: 55%;
+  background-size: cover;
+  background-position: center;
+  background-color: #ddd;
+}
+.about-us-right h3 {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.about-us-right {
+  padding: 50px 0;
+  line-height: 1.7;
+}
+.about-background:before {
+  position: absolute;
+  left: 0;
+  top: 15%;
+  width: 3px;
+  height: 70%;
+  background: #fc721e;
+  content: "";
+}
+.about-background:after {
+  position: absolute;
+  right: 0;
+  top: 15%;
+  bottom: 0;
+  width: 3px;
+  height: 70%;
+  content: "";
+  background: #fc721e;
+}
+/*---------- ABOUT AREA CSS END ----------*/
+/*---------- CTA AREA CSS START ----------*/
+.cta-area {
+	background: #fc721e;
+}
+.cta-area h4 {
+	font-size: 21px;
+	color: #fff;
+	font-weight: 600;
+	margin: 10px 0;
+}
+.cta-btn {
+  display: inline-block;
+  color: #1c1c1c;
+  text-transform: uppercase;
+  background: #fff;
+  padding: 8px 10px;
+  border-radius: 5px;
+  transition: .3s;
+}
+.cta-btn:hover {
+	background: #000000;
+	color: #fff;
+}
+.cta-area {
+  padding: 60px 0;
+}
+
+/*---------- CTA AREA CSS END ----------*/
+/*---------- PROJECT AREA CSS START ----------*/
+.project-area {
+	padding-top: 100px;
+}
+.project-bg-1{background-image: url(../img/project-1.jpg);}
+.project-bg-2{background-image: url(../img/project-2.jpg);}
+.project-bg-3{background-image: url(../img/project-3.jpg);}
+.project-bg-4{background-image: url(../img/project-4.jpg);}
+.project-bg {
+  height: 275px;
+  background-size: cover;
+  background-position: center;
+  background-color: #ddd;
+  width: 270px;
+  position: relative;
+  z-index: 1;
+  float: left;
+}
+.single-project-item {
+  min-height: 275px;
+  cursor: pointer;
+}
+.project-margin{
+  margin-bottom: 50px;
+}
+.project-text {
+  margin-left: 270px;
+  padding: 38px 20px;
+}
+.project-text h4 {
+  font-size: 20px;
+  color: #fc721e;
+}
+.project-bg:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background: #000000;
+  transition: .3s;
+  opacity: 0;
+}
+.single-project-item:hover .project-bg::after {
+  opacity: .85;
+}
+/*---------- PROJECT AREA CSS END ----------*/
+/*---------- TEAM AREA CSS START ----------*/
+.team-area {
+  margin-top: 100px;
+}
+.team-bg-1{background-image: url(../img/team-1.jpg);}
+.team-bg-2{background-image: url(../img/team-2.jpg);}
+.team-bg-3{background-image: url(../img/team-3.jpg);}
+.team-bg-4{background-image: url(../img/team-4.jpg);}
+.team-bg {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-color: #ddd;
+  position: relative;
+  z-index: 1;
+}
+.team-bg:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background: #fc721e;
+  transition: .3s;
+  opacity: 0;
+}
+.single-team-section:hover .team-bg::after {
+  opacity: .7;
+}
+.single-team-section {
+  text-align: center;
+  cursor: pointer;
+}
+.team-text h4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.team-text h4 span {
+  display: block;
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 15px;
+}
+.team-text {
+  padding: 20px;
+  padding-top: 35px;
+  margin-top: 10px;
+  border: 1px solid #dddbdb;
+}
+.sccial-section a {
+  display: inline-block;
+  height: 35px;
+  width: 35px;
+  text-align: center;
+  line-height: 35px;
+  border: 1px solid #4c4a4a;
+  color: #000000;
+  transition: .3s;
+  margin: 0 2px;
+}
+.sccial-section a:hover {
+  border-color: #fc721e;
+  color: #fc721e;
+}
+.sccial-section {
+  margin-top: 20px;
+}
+/*---------- TEAM AREA CSS END ----------*/
+/*---------- SPONSORS AREA CSS START ----------*/
+.partner-bg-1{background-image: url(../img/partner-1.jpg);}
+.partner-bg-2{background-image: url(../img/partner-2.jpg);}
+.partner-bg-3{background-image: url(../img/partner-3.jpg);}
+.partner-bg-4{background-image: url(../img/partner-4.jpg);}
+.partner-bg-5{background-image: url(../img/partner-5.jpg);}
+.partner-bg {
+  height: 80px;
+  background-size: cover;
+  background-position: center;
+  width: 130px;
+  margin: auto;
+}
+.single-partners {
+  float: left;
+  width: 20%;
+  cursor: pointer;
+}
+.sponsors-area-top {
+  margin-top: 100px;
+}
+.sponsors-area-bottom {
+  padding: 60px 0;
+  border-top: 1px solid #d7d5d5;
+  border-bottom: 1px solid #d7d5d5;
+  margin-bottom: 100px;
+}
+/*---------- SPONSORS AREA CSS END ----------*/
+/*---------- FOOTER AREA CSS START ----------*/
+.footer-area {
+  background: #000000;
+  padding-top: 100px;
+  color: #8e8c8c;
+}
+.footer-area a {
+  color: #fff;
+}
+.footer-title {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+  z-index: 1;
+}
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+.footer-logo h2 {
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0;
+  border: 1px solid #fff;
+  padding: 8px 15px;
+}
+.footer-area .social-area {
+  display: inline-block;
+  margin-left: 0px;
+}
+.footer-area .social-area a i {
+	margin-right: 5px;
+}
+.footer-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-transform: capitalize;
+}
+.footer-menu li a {
+  color: #8e8c8c;
+  display: block;
+  transition: .3s;
+}
+.footer-menu li a i {
+	margin-right: 25px;
+	transition: .3s;
+}
+.footer-menu li a:hover {
+	color: #FC721E;
+}
+.footer-text p span {
+  display: block;
+  color: #686767;
+}
+.footer-title:after {
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 50px;
+  height: 2px;
+  background: #fc721e;
+  content: "";
+}
+.footer-form input[type=email] {
+  background: #222222;
+  border: none;
+  color: #8b8a8a;
+  padding: 10px 15px;
+  width: 100%;
+  margin-top: 40px;
+  position: relative;
+}
+.footer-form input::placeholder {
+  color: #8b8a8a;
+  opacity: 1;
+}
+.footer-form i {
+	position: absolute;
+	bottom: 17px;
+	right: 27px;
+}
+.footer-contact p i, .footer-contact a i {
+  color: #fc721e;
+  margin-right: 10px;
+}
+.footer-contact p, .footer-contact a {
+  color: #f5f3f3;
+}
+.footer-contact p, .footer-contact a {
+  margin-bottom: 10px;
+}
+.footer-contact a {
+  display: inline-block;
+}
+.footer-bottom-area {
+  border-top: 1px solid #403f3f;
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 60px;
+}
+/*---------- FOOTER AREA CSS END ----------*/
